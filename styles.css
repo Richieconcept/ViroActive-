@@ -355,6 +355,24 @@ p {
   font-weight: 800;
 }
 
+.price-list {
+  display: grid;
+  gap: 8px;
+  width: min(360px, 100%);
+  margin: 8px auto 22px;
+  padding: 14px;
+  background: #fff7f7;
+  border: 2px dashed var(--red);
+  border-radius: 8px;
+}
+
+.price-list p {
+  margin: 0;
+  color: var(--deep);
+  font-size: 1.18rem;
+  font-weight: 800;
+}
+
 .promo-card h2,
 .delivery {
   color: var(--red);
